@@ -23,7 +23,10 @@
     <ClInclude Include="Pitcher.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Batter.h">
+    <ClInclude Include="title.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionPlayers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -17,33 +17,25 @@ using namespace std;
 //Defines
 #define PITCHER_ARRAY_COUNT	20
 
+//Global Variables
 
-//Declaring Variables
 
-
-//Functions
-
-//generates the pitchers attributes
-int * FPitcherRandomAttributesGenerator(int PitcherArrayThatNeedsGenerating[], int ARRAYSIZE)
+//Structs
+struct Batter
 {
-	//Generates a pitcher with Random Attributes.
-	for (int PALoopIndex = 0; PALoopIndex <= ARRAYSIZE; PALoopIndex++)
-	{
-		//Initializing the seed for random
-		srand(time(NULL));
-		PitcherArrayThatNeedsGenerating[PALoopIndex] = rand() % 100;
-	}
+	string BatterName
+};
 
-	return 0;
-}
-int FBatterRandomAttributesGenerator(int *BatterArray);
+//*
+//Functions
+//
+
 
 
 void main()
 {
 	//Declaring Variables
-	int PitcherInitialAttributesArray[PITCHER_ARRAY_COUNT];
-	int BatterAttributesArray[20];
+
 
 	//Title 
 	cout << "Welcome to BleacherBaseball" << endl;
@@ -55,7 +47,6 @@ void main()
 	//Pause the system and wait for input.  Then clear the screen.
 	//system("PAUSE");
 	
-	cout << "HelloWorld";
 	//todo  Create a menu that asks the players what they want to do.
 	//			Create a player or team
 	//			Simulate a Game
@@ -64,11 +55,11 @@ void main()
 	//			Save and Quit BleacherBaseball
 
 	//Create pitcher
-	
-	int *Pitcher = FPitcherRandomAttributesGenerator(PitcherInitialAttributesArray, PITCHER_ARRAY_COUNT);
+
+
 
 	//Create a batter
-	FBatterRandomAttributesGenerator(BatterAttributesArray);
+
 
 	//Choose a pitcher
 	//Choose a batter
@@ -92,15 +83,3 @@ void main()
 
 }
 
-
-
-int FBatterRandomAttributesGenerator(int *BatterArray)
-{
-	//Generates a batter with Random Attributes.
-
-
-
-
-
-	return 0;
-}
