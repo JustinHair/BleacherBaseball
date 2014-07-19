@@ -1,4 +1,10 @@
-// Baseball simulation game
+//   ______     __                            __                           ______                             __                 __    __   
+//  |_   _ \   [  |                          [  |                         |_   _ \                           [  |               [  |  [  |  
+//    | |_) |   | |   .---.   ,--.    .---.   | |--.    .---.   _ .--.      | |_) |   ,--.    .--.    .---.   | |.--.    ,--.    | |   | |  
+//    |  __'.   | |  / /__\\ `'_\ :  / /'`\]  | .-. |  / /__\\ [ `/'`\]     |  __'.  `'_\ :  ( (`\]  / /__\\  | '/'`\ \ `'_\ :   | |   | |  
+//   _| |__) |  | |  | \__., // | |, | \__.   | | | |  | \__.,  | |        _| |__) | // | |,  `'.'.  | \__.,  |  \__/ | // | |,  | |   | |  
+//  |_______/  [___]  '.__.' \'-;__/ '.___.' [___]|__]  '.__.' [___]      |_______/  \'-;__/ [\__) )  '.__.' [__;.__.'  \'-;__/ [___] [___] 
+//  
 
 #include <iostream>
 #include <string>		//Needed to work with string types
@@ -15,16 +21,13 @@
 using namespace std;
 
 //Defines
-#define PITCHER_ARRAY_COUNT	20
+
 
 //Global Variables
 
 
 //Structs
-struct Batter
-{
-	string BatterName
-};
+
 
 //*
 //Functions
@@ -45,8 +48,10 @@ void main()
 	FTitleArt();
 
 	//Pause the system and wait for input.  Then clear the screen.
-	//system("PAUSE");
-	
+	system("PAUSE");
+	system("cls");
+	system("PAUSE");
+
 	//todo  Create a menu that asks the players what they want to do.
 	//			Create a player or team
 	//			Simulate a Game
