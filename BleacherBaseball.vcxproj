@@ -68,7 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pitcher.h" />
-    <ClInclude Include="PositionPlayers.h" />
+    <ClInclude Include="PlayerInfo.h" />
     <ClInclude Include="title.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

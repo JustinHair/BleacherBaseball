@@ -26,7 +26,7 @@
     <ClInclude Include="title.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PositionPlayers.h">
+    <ClInclude Include="PlayerInfo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
