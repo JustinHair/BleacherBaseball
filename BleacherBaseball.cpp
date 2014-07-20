@@ -17,6 +17,7 @@
 
 //BleacherBaseball headers
 #include "title.h"
+#include "PlayerInfo.h"
 
 using namespace std;
 
@@ -38,7 +39,9 @@ using namespace std;
 void main()
 {
 	//Declaring Variables
-
+	Player Pitcher;
+	string Name;
+	int AIM;
 
 	//Title 
 	cout << "Welcome to BleacherBaseball" << endl;
@@ -50,6 +53,18 @@ void main()
 	//Pause the system and wait for input.  Then clear the screen.
 	system("PAUSE");
 	system("cls");
+
+	cout << "Enter the Pitchers name: " << endl;
+	cin >> Name;
+	Pitcher.Set_PlayerName(Name);
+
+	cout << "Enter an accuracy for the Pitcher (0-100): " << endl;
+	cin >> AIM;
+	Pitcher.Set_PitcherAimAccuracy(AIM);
+	
+	cout << "Pitcher name is: " << Pitcher.Get_PlayerName() << endl;
+	cout << "The pitcher's accuracy is: " << Pitcher.Get_PitcherAimAccuracy() << endl;
+
 	system("PAUSE");
 
 	//todo  Create a menu that asks the players what they want to do.
