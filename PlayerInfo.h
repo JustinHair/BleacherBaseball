@@ -14,11 +14,16 @@ public:
 	//Set Functions - All
 	void Set_BasicPlayerInfo(string Name, string Team, string Arm, string Bat, string Pos, int PlayAge)
 		{PlayerName = Name; TeamName = Team; Throws = Arm; BatHand = Bat; Position = Pos; PlayerAge = PlayAge;}
+
 	void Set_Batting(int BBattersEye, int BTiming, int BContact, int BPower, int BBuntingSkill, int BGroundBall, int BFlyBall, int BLineDrive, int BSpeed)
 		{BattersEye = BBattersEye; Timing = BTiming; Contact = BContact; Power = BPower; BuntingSkill = BBuntingSkill; TendencyGroundball = BGroundBall; TendencyFlyball = BFlyBall; TendencyLinedrive = BLineDrive; Speed = BSpeed;	}
-	
-	void Set_Fielding(int FArmStrength, int FArmAccuracy, int FRange, int FGloveWork, int FSpeed);
+
+	void Set_Fielding(int FArmStrength, int FArmAccuracy, int FRange, int FGloveWork, int FSpeed)
+		{ArmStrength = FArmStrength; ArmAccuracy = FArmAccuracy; Range = FRange; GloveWork = FGloveWork; Speed = FSpeed;}
+
 	void Set_Pitching(int PAimAccuracy, int PPitchSpeed, int PDeciet, int PStamina, int PStealable, int PFourSeam, int PTwoSeam, int PCutter, int PSplitter, int PForkball, int PCurveball, int PSlider, int PSlurve, int PScrewball, int PChangeup, int PPalmball, int PCircleChange, int PKnuckleball);
+	
+	
 	void Set_All(string Name, string Team, string Arm, string Bat, string Position, int PlayerAge, int BBattersEye, int BTiming, int BContact, int BPower, int BBuntingSkill, int BGroundBall, int BFlyBall, int BLineDrive, int BSpeedint, int FArmStrength, int FArmAccuracy, int FRange, int FGloveWork, int PAimAccuracy, int PPitchSpeed, int PDeciet, int PStamina, int PStealable, int PFourSeam, int PTwoSeam, int PCutter, int PSplitter, int PForkball, int PCurveball, int PSlider, int PSlurve, int PScrewball, int PChangeup, int PPalmball, int PCircleChange, int PKnuckleball, int Hard);
 
 	//Set Functions - Single
@@ -66,7 +71,7 @@ private:
 	int Hardiness;				//Injury frequency
 
 	//Fielding
-	int ArmStrenght;
+	int ArmStrength;
 	int ArmAccuracy;
 	int Range;
 	int GloveWork;
