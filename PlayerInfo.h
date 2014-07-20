@@ -44,12 +44,27 @@ private:
 	//Speed - Used for running the bases and fielding.
 	int Speed;
 
+	//Misc
+	int Hardiness;				//Injury frequency
+
 	//Fielding
 	int ArmStrenght;
 	int ArmAccuracy;
 	int Range;
 	int GloveWork;
 
+	//========
+	//Pitcher Attributes
+	//========
+	int AimAccuracy; 
+	int PitchSpeed;
+	int Decietfullness;			//How often the pitcher fools the batters.  Things of removing this.
+	int Endurance;				//How long can the pitcher pitch before being completly tired.
+	
+	//Misc.
+	int Stealable;				//How easily can the pitcher be stolen off of.
+	
+	//Pitches
 
 
 };
