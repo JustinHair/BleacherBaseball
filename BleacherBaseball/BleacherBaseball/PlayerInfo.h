@@ -11,33 +11,27 @@ public:
 	Player();
 
 	//Set Functions - All
+	//
+	//These functions set the values for the specified set of General, Fielding, Batting, and Pitching attributes..
 	void Set_BasicPlayerInfo(string Name, string Team, string Arm, string Bat, string Pos, int PlayAge)
-	{
-		PlayerName = Name; TeamName = Team; Throws = Arm; BatHand = Bat; Position = Pos; PlayerAge = PlayAge;
-	}
+	{ PlayerName = Name; TeamName = Team; Throws = Arm; BatHand = Bat; Position = Pos; PlayerAge = PlayAge;	}
 
 	void Set_Batting(int BBattersEye, int BTiming, int BContact, int BPower, int BBuntingSkill, int BGroundBall, int BFlyBall, int BLineDrive, int BSpeed)
-	{
-		BattersEye = BBattersEye; Timing = BTiming; Contact = BContact; Power = BPower; BuntingSkill = BBuntingSkill; TendencyGroundball = BGroundBall; TendencyFlyball = BFlyBall; TendencyLinedrive = BLineDrive; Speed = BSpeed;
-	}
+	{ BattersEye = BBattersEye; Timing = BTiming; Contact = BContact; Power = BPower; BuntingSkill = BBuntingSkill; TendencyGroundball = BGroundBall; TendencyFlyball = BFlyBall; TendencyLinedrive = BLineDrive; Speed = BSpeed; }
 
 	void Set_Fielding(int FArmStrength, int FArmAccuracy, int FRange, int FGloveWork, int FSpeed)
-	{
-		ArmStrength = FArmStrength; ArmAccuracy = FArmAccuracy; Range = FRange; GloveWork = FGloveWork; Speed = FSpeed;
-	}
+	{ ArmStrength = FArmStrength; ArmAccuracy = FArmAccuracy; Range = FRange; GloveWork = FGloveWork; Speed = FSpeed; }
 
 	void Set_Pitching(int PAimAccuracy, int PPitchSpeed, int PDeciet, int PStamina, int PStealable, int PFourSeam, int PTwoSeam, int PCutter, int PSplitter, int PForkball, int PCurveball, int PSlider, int PSlurve, int PScrewball, int PChangeup, int PPalmball, int PCircleChange, int PKnuckleball)
-	{
-		AimAccuracy = PAimAccuracy; PitchSpeed = PPitchSpeed; Decietfullness = PDeciet; Stamina = PStamina; Stealable = PStealable; FourSeam = PFourSeam; TwoSeam = PTwoSeam; Cutter = PCutter; Splitter = PSplitter; Forkball = PForkball; Curveball = PCurveball; Slider = PSlider; Slurve = PSlurve; Screwball = PScrewball; Changeup = PChangeup; Palmball = PPalmball; CircleChange = PCircleChange; Knuckleball = PKnuckleball;
-	}
+	{ AimAccuracy = PAimAccuracy; PitchSpeed = PPitchSpeed; Decietfullness = PDeciet; Stamina = PStamina; Stealable = PStealable; FourSeam = PFourSeam; TwoSeam = PTwoSeam; Cutter = PCutter; Splitter = PSplitter; Forkball = PForkball; Curveball = PCurveball; Slider = PSlider; Slurve = PSlurve; Screwball = PScrewball; Changeup = PChangeup; Palmball = PPalmball; CircleChange = PCircleChange; Knuckleball = PKnuckleball;	}
 
 	void Set_All(string Name, string Team, string Arm, string Bat, string Pos, int PlayAge, int BBattersEye, int BTiming, int BContact, int BPower, int BBuntingSkill, int BGroundBall, int BFlyBall, int BLineDrive, int BSpeed, int FArmStrength, int FArmAccuracy, int FRange, int FGloveWork, int PAimAccuracy, int PPitchSpeed, int PDeciet, int PStamina, int PStealable, int PFourSeam, int PTwoSeam, int PCutter, int PSplitter, int PForkball, int PCurveball, int PSlider, int PSlurve, int PScrewball, int PChangeup, int PPalmball, int PCircleChange, int PKnuckleball, int Hard)
-	{
-		PlayerName = Name; TeamName = Team; Throws = Arm; BatHand = Bat; Position = Pos; PlayerAge = PlayAge; BattersEye = BBattersEye; Timing = BTiming; Contact = BContact; Power = BPower; BuntingSkill = BBuntingSkill; TendencyGroundball = BGroundBall; TendencyFlyball = BFlyBall; TendencyLinedrive = BLineDrive; Speed = BSpeed; ArmStrength = FArmStrength; ArmAccuracy = FArmAccuracy; Range = FRange; GloveWork = FGloveWork; AimAccuracy = PAimAccuracy; PitchSpeed = PPitchSpeed; Decietfullness = PDeciet; Stamina = PStamina; Stealable = PStealable; FourSeam = PFourSeam; TwoSeam = PTwoSeam; Cutter = PCutter; Splitter = PSplitter; Forkball = PForkball; Curveball = PCurveball; Slider = PSlider; Slurve = PSlurve; Screwball = PScrewball; Changeup = PChangeup; Palmball = PPalmball; CircleChange = PCircleChange; Knuckleball = PKnuckleball; Hardiness = Hard;
-	}
+	{ PlayerName = Name; TeamName = Team; Throws = Arm; BatHand = Bat; Position = Pos; PlayerAge = PlayAge; BattersEye = BBattersEye; Timing = BTiming; Contact = BContact; Power = BPower; BuntingSkill = BBuntingSkill; TendencyGroundball = BGroundBall; TendencyFlyball = BFlyBall; TendencyLinedrive = BLineDrive; Speed = BSpeed; ArmStrength = FArmStrength; ArmAccuracy = FArmAccuracy; Range = FRange; GloveWork = FGloveWork; AimAccuracy = PAimAccuracy; PitchSpeed = PPitchSpeed; Decietfullness = PDeciet; Stamina = PStamina; Stealable = PStealable; FourSeam = PFourSeam; TwoSeam = PTwoSeam; Cutter = PCutter; Splitter = PSplitter; Forkball = PForkball; Curveball = PCurveball; Slider = PSlider; Slurve = PSlurve; Screwball = PScrewball; Changeup = PChangeup; Palmball = PPalmball; CircleChange = PCircleChange; Knuckleball = PKnuckleball; Hardiness = Hard; }
 
 
 	//Set Functions - Single
+	//
+	//These functions set the values for a specified attribute.
 	void Set_PlayerName(string Name)													{ PlayerName = Name; }
 	void Set_TeamName(string Team)														{ TeamName = Team; }
 	void Set_ThrowingArm(string Arm)													{ Throws = Arm; }
@@ -54,9 +48,27 @@ public:
 	void Set_BatterLineDriveTendecny(int BTendencyLinedrive)							{ TendencyLinedrive = BTendencyLinedrive; }
 	void Set_Speed(int BSpeed)															{ Speed = BSpeed; }
 	void Set_Hardiness(int Hard)														{ Hardiness = Hard; }
-
+	void Set_FieldingArmStrength(int FArmStrength)										{ ArmStrength = FArmStrength; }
+	void Set_FieldingRange(int FRange)													{ Range = FRange; }
+	void Set_FieldingGloveWork(int FGloveWork)											{ GloveWork = FGloveWork; }
 	void Set_PitcherAimAccuracy(int PAimAccuracy)										{ AimAccuracy = PAimAccuracy; }
-
+	void Set_PitcherPitchSpeed(int PPitchSpeed)											{ PitchSpeed = PPitchSpeed; }
+	void Set_PitcherDecietfullness(int PDeciet)											{ Decietfullness = PDeciet; }
+	void Set_PitcherStamina(int PStamina)												{ Stamina = PStamina; }
+	void Set_PitcherStealable(int PStealable)											{ Stealable = PStealable; }
+	void Set_PitchFourSeam(int PFourSeam)												{ FourSeam = PFourSeam; }
+	void Set_PitchTwoSeam(int PTwoSeam)													{ TwoSeam = PTwoSeam; }
+	void Set_PitchCutter(int PCutter)													{ Cutter = PCutter; }
+	void Set_PitchSplitter(int PSplitter)												{ Splitter = PSplitter; }
+	void Set_PitchForkball(int PForkball)												{ Forkball = PForkball; }
+	void Set_PitchCurveball(int PCurveball)												{ Curveball = PCurveball; }
+	void Set_PitchSlider(int PSlider)													{ Slider = PSlider; }
+	void Set_PitchSlurve(int PSlurve)													{ Slurve = PSlurve; }
+	void Set_PitchScrewball(int PScrewball)												{ Screwball = PScrewball; }
+	void Set_PitchChangeup(int PChangeup)												{ Changeup = PChangeup; }
+	void Set_PitchPalmball(int PPalmball)												{ Palmball = PPalmball; }
+	void Set_PitchCircleChange(int PCircleChange)										{ CircleChange = PCircleChange; }
+	void Set_PitchKnuckleball(int PKnuckleball)											{ Knuckleball = PKnuckleball; }
 
 	//Get Functions - All
 
@@ -136,7 +148,7 @@ private:
 	int Speed;
 
 	//Misc
-	int Hardiness;				//Injury frequency
+	int Hardiness;				//Injury frequency.  The higher the number the least likely the player is going to get hurt.
 
 	//Fielding
 	int ArmStrength;

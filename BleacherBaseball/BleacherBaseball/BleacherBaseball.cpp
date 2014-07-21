@@ -32,8 +32,8 @@ using namespace std;
 
 //*
 //Functions
-//
-
+void FCreateThePitcher(Player PitcherUsed);
+void FCreateTheBatter(Player BatterUsed);
 
 
 void main()
@@ -54,23 +54,12 @@ void main()
 	system("PAUSE");
 	system("cls");
 
-	cout << "Pitcher name is: " << Pitcher.Get_PlayerName() << endl;
-	cout << "The pitcher's accuracy is: " << Pitcher.Get_PitcherAimAccuracy() << endl;
+	//Create the pitcher that will be used in this basic simulation.
+	void FCreateThePitcher(Player &PitcherUsed);
 
-	cout << "Enter the Pitchers name: " << endl;
-	cin >> Name;
-	Pitcher.Set_PlayerName(Name);
+	//Create the batter that will be used in this basic simulation.
+	void FCreateTheBatter(Player &BatterUsed);
 
-	cout << "Enter an accuracy for the Pitcher (0-100): " << endl;
-	cin >> AIM;
-	Pitcher.Set_PitcherAimAccuracy(AIM);
-	
-	cout << "Pitcher name is: " << Pitcher.Get_PlayerName() << endl;
-	cout << "The pitcher's accuracy is: " << Pitcher.Get_PitcherAimAccuracy() << endl;
-
-	cout << "The pitcher's bunting skill is: " << Pitcher.Get_BuntingSkill() << endl;
-
-	system("PAUSE");
 
 	//Create pitcher
 	//Create a batter
