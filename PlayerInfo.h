@@ -8,7 +8,7 @@ using namespace std;
 class Player
 {
 public:
-	Player();//{ Set_All("Generic Player", "Generic Team", "R", "R", "RF", 32, 50, 50, 50, 50, 50, 34, 33, 33, 50, 50, 50, 50, 50, 50, 75, 50, 50, 50, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50); }
+	Player();
 
 
 	//Set Functions - All
@@ -105,6 +105,7 @@ private:
 };
 Player::Player()
 {
+Set_All("Generic Player", "Generic Team", "R", "R", "RF", 32, 50, 50, 50, 50, 50, 34, 33, 33, 50, 50, 50, 50, 50, 50, 75, 50, 50, 50, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 50);
 }
 Player::~Player()
 {

@@ -43,6 +43,9 @@ void main()
 	string Name;
 	int AIM;
 
+
+	Pitcher = Player::Player();
+
 	//Title 
 	cout << "Welcome to BleacherBaseball" << endl;
 	cout << endl;
@@ -53,6 +56,9 @@ void main()
 	//Pause the system and wait for input.  Then clear the screen.
 	system("PAUSE");
 	system("cls");
+
+	cout << "Pitcher name is: " << Pitcher.Get_PlayerName() << endl;
+	cout << "The pitcher's accuracy is: " << Pitcher.Get_PitcherAimAccuracy() << endl;
 
 	cout << "Enter the Pitchers name: " << endl;
 	cin >> Name;
