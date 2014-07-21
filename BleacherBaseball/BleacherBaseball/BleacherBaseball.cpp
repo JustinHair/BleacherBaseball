@@ -67,7 +67,8 @@ void main()
 	
 	cout << "Pitcher name is: " << Pitcher.Get_PlayerName() << endl;
 	cout << "The pitcher's accuracy is: " << Pitcher.Get_PitcherAimAccuracy() << endl;
-;
+
+	cout << "The pitcher's bunting skill is: " << Pitcher.Get_BuntingSkill() << endl;
 
 	system("PAUSE");
 
