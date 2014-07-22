@@ -136,7 +136,7 @@ private:
 	int BattersEye;				// How easily the batter can determine the pitch type and location.
 	int Timing;					// Determines if the player hits the as well as to what part of the field, and fair or foul.
 	int Contact;				// How well does the player make contact
-	int Power;					// Potentially how fare the ball will travel.  Possibly rename to "Drive"
+	int Power;					// Potentially how fair the ball will travel.  Possibly rename to "Drive"
 
 	int BuntingSkill;			// How well the player bunts.
 
@@ -159,8 +159,8 @@ private:
 	//========
 	//Pitcher Attributes
 	//========
-	int AimAccuracy; 
-	int PitchSpeed;
+	int AimAccuracy;			//How good is the control of the pitcher
+	int PitchSpeed;				//How fast can the pitcher throw his hardest pitch.  This in in MPH.
 	int Decietfullness;			//How often the pitcher fools the batters.  Things of removing this.
 	int Stamina;				//How long can the pitcher pitch before being completely tired.
 	

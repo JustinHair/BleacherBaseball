@@ -9,7 +9,6 @@
 #include <iostream>
 #include <string>		//Needed to work with string types
 #include <fstream>		//Needed to read/write to files
-#include <windows.h>	//Needed for clear screen
 #include <time.h>		//Used Random Number Generator Seed
 #include <stdio.h>      //Needed for NULL
 #include <stdlib.h>     //Needed for Random stuff
@@ -42,7 +41,6 @@ void main()
 	//Declaring Variables
 	Player Pitcher;
 	Player Batter;
-	string Name;
 
 	//Title 
 	cout << "Welcome to BleacherBaseball" << endl;
@@ -58,15 +56,12 @@ void main()
 	//Create the pitcher that will be used in this basic simulation.
 	FCreateThePitcher(Pitcher);
 
-	cout << endl << Pitcher.Get_PlayerName();
 
-	system("PAUSE");
 	//Create the batter that will be used in this basic simulation.
-	void FCreateTheBatter(Player BatterUsed);
+	FCreateTheBatter(Batter);
 
-
-	//Create pitcher
-	//Create a batter
+	cout << "Today's game will be " << Pitcher.Get_PlayerName() << " versus " << Batter.Get_PlayerName() << "." << endl;
+	system("PAUSE");
 
 	//Pitcher chooses what pitch to throw
 	//Pitcher chooses what location

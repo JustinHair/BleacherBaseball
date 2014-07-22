@@ -90,4 +90,73 @@ void FCreateThePitcher(Player &PitcherUsed)
 	cout << "\n Kunckleball: ";
 	cin >> temp2;
 	PitcherUsed.Set_PitchKnuckleball(temp2);
+
+	system("PAUSE");
+	system("cls");
+}
+
+
+void FCreateTheBatter(Player &BatterUsed)
+{
+	string temp1;
+	int temp2;
+	int GroundBallTendency;
+	int FlyBallTendency;
+
+	cout << "Let's generate a batter for our baseball simulation." << endl;
+	
+	cout << "\n Batter Name: ";
+	cin >> temp1;
+	BatterUsed.Set_PlayerName(temp1);
+
+	cout << "\n Batter Team: ";
+	cin >> temp1;
+	BatterUsed.Set_TeamName(temp1);
+
+	cout << "\n Batter Right handed or Left handed (R = Right, L = Left): ";
+	cin >> temp1;
+	BatterUsed.Set_BatterSide(temp1);
+
+	cout << "\n Batters ability to determine the pitch type and location: (enter a value from 1-100) ";
+	cin >> temp2;
+	BatterUsed.Set_BatterBattersEye(temp2);
+
+	cout << "\n Batters swing timing: (enter a value from 1-100) ";
+	cin >> temp2;
+	BatterUsed.Set_BatterTiming(temp2);
+
+	cout << "\n Batters Contact: (enter a value from 1-100) ";
+	cin >> temp2;
+	BatterUsed.Set_BatterContact(temp2);
+
+	cout << "\n Batters Power and ability to drive the ball. \n How far can your player hit the ball, in feet, unopposed.(enter a value) ";
+	cin >> temp2;
+	BatterUsed.Set_BatterPower(temp2);
+
+	cout << "\n Batters Bunting ability: (enter a value from 1-100) ";
+	cin >> temp2;
+	BatterUsed.Set_BatterBuntingSkill(temp2);
+
+	cout << "\n Now we'll need to determine how often the batter will hit a line drive, ground ball, or a fly ball." << "\n The cumulative points for these three attributes need to add to 100.";
+
+	cout << "\n Batters Ground ball tendency: ";
+	cin >> GroundBallTendency;
+	BatterUsed.Set_BatterGroundBallTendency(temp2);
+
+	cout << "\n Batters Fly ball tendency: ";
+	cin >> FlyBallTendency;
+	BatterUsed.Set_BatterFlyBallTendency(temp2);
+
+	if ((GroundBallTendency + FlyBallTendency) >= 100)
+	{
+		BatterUsed.Set_BatterLineDriveTendecny(0);
+	}
+	else
+	{
+		temp2 = 100 - (GroundBallTendency + FlyBallTendency);
+		BatterUsed.Set_BatterLineDriveTendecny(temp2);
+	}
+
+	system("PAUSE");
+	system("cls");
 }
