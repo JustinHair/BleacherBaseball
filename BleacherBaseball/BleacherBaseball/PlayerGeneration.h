@@ -33,7 +33,7 @@ void FCreateThePitcher(Player &PitcherUsed)
 	cin >> temp2;
 	PitcherUsed.Set_PitcherDecietfullness(temp2);
 
-	cout << "\n The number of innings can this pitcher throw (1 - 10): " << endl;
+	cout << "\n The number of innings can this pitcher throw (1 - 10): "; /////GET RID OF ENDL
 	cin >> temp2;
 	PitcherUsed.Set_PitcherStamina(temp2);
 
@@ -69,7 +69,7 @@ void FCreateThePitcher(Player &PitcherUsed)
 
 	cout << "\n Slurve: ";
 	cin >> temp2;
-	PitcherUsed.Set_PitchSlurve(temp2);
+	PitcherUsed.Set_PitchSlurve(temp2);       ////////ENtered ? here and it skipped the rest
 
 	cout << "\n Screwball: ";
 	cin >> temp2;
