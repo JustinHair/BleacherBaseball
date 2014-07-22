@@ -18,29 +18,27 @@
 #include "title.h"
 #include "PlayerInfo.h"
 #include "PlayerGeneration.h"
+#include "BallparkInfo.h"
 
 using namespace std;
-
-//Defines
-
-
-//Global Variables
-
-
-//Structs
-
 
 //*
 //Functions
 //
-void FCreateTheBatter(Player &BatterUsed);
-
 
 void main()
 {
 	//Declaring Variables
 	Player Pitcher;
 	Player Batter;
+	BallPark BallDiamond;
+	bool bPlaying = true;
+	int PitchCount = 0;
+	int Strikes = 0;
+	int Balls = 0;
+	int Outs = 0;
+	int hits = 0;
+	bool bSwing = false;
 
 	//Title 
 	cout << "Welcome to BleacherBaseball" << endl;
@@ -55,28 +53,34 @@ void main()
 
 	//Create the pitcher that will be used in this basic simulation.
 	FCreateThePitcher(Pitcher);
-
-
+	
 	//Create the batter that will be used in this basic simulation.
 	FCreateTheBatter(Batter);
+
 
 	cout << "Today's game will be " << Pitcher.Get_PlayerName() << " versus " << Batter.Get_PlayerName() << "." << endl;
 	system("PAUSE");
 
-	//Pitcher chooses what pitch to throw
-	//Pitcher chooses what location
+	while (bPlaying)
+	{
+		//Pitcher chooses what pitch to throw
+
+		//Pitcher chooses what location
 
 
 
-	//Batter chances on recognizing the pitch
-	//Batter determines pitch location
+		//Batter chances on recognizing the pitch
+		//Batter determines pitch location
 
 
-	//Batter decides to swing or take
+		//Batter decides to swing or take
 
 
-	//Actual pitch location vs perceived by batter
-	//calculates hit or whiff
+		//Actual pitch location vs perceived by batter
+		//calculates hit or whiff
+		PitchCount++;
+	}
+
 
 
 

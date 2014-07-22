@@ -15,6 +15,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BallparkInfo.h" />
+    <ClInclude Include="Gameplay.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="PlayerGeneration.h" />
     <ClInclude Include="PlayerInfo.h" />

@@ -15,6 +15,8 @@ public:
 	BallPark();
 
 	//Set the variable for the specified variable.
+	void Set_All(string BPName, string BPLocation, int BPAge, string FoulSize, int BPLeftField, int BPLeftCenter, int BPCenterField, int BPRightCenter, int BPRightField, int WHLeftField, int WHLeftCenterField, int WHCenterField, int WHRightCenterField, int WHRightField)
+	{	BallParkName = BPName, BallParkLocation = BPLocation, BallParkAge = BPAge, FoulTerritorySize = FoulSize, LeftField = BPLeftField, LeftCenter = BPLeftField, CenterField = BPCenterField, RightCenter = BPRightCenter, RightField = BPRightField, WallHeightLeftField = WHLeftField, WallHeightLeftCenter = WHLeftCenterField, WallHeightCenterField = WHCenterField, WallHeightRightCenter = WHRightCenterField, WallHeightRightField = WHRightField; }
 	void Set_BallParkName(string BPName)							{ BallParkName = BPName; }
 	void Set_BallParkLocation(string BPLocation)					{ BallParkLocation = BPLocation; }
 	void Set_BallParkAge(int BPAge)									{ BallParkAge = BPAge; }
@@ -24,6 +26,11 @@ public:
 	void Set_DimensionCenterField(int BPCenterField)				{ CenterField = BPCenterField; }
 	void Set_DimensionRightCenterField(int BPRightCenter)			{ RightCenter = BPRightCenter; }
 	void Set_DimensionRightField(int BPRightField)					{ RightField = BPRightField; }
+	void Set_WallHeightLeftField(int WHLeftField)					{ WallHeightLeftField = WHLeftField; }
+	void Set_WallHeightLeftCenterField(int WHLeftCenter)			{ WallHeightLeftCenter = WHLeftCenter; }
+	void Set_WallHeightCenterField(int WHCenterField)				{ WallHeightCenterField = WHCenterField; }
+	void Set_WallHeightRightCenterField(int WHRightCenter)			{ WallHeightRightCenter = WHRightCenter; }
+	void Set_WallHeightRightField(int WHRightField)					{ WallHeightRightField = WHRightField; }
 
 	//Ballpark Deconstructor
 	~BallPark();
@@ -59,9 +66,7 @@ private:
 
 BallPark::BallPark()
 {
-
-
-
+	Set_All("Generic Stadium", "Generic Town", 1, "Medium", 330, 360, 405, 360, 330, 6, 6, 6, 6, 6);
 }
 
 BallPark::~BallPark()
