@@ -50,4 +50,44 @@ void FCreateThePitcher(Player &PitcherUsed)
 	cout << "\n Cutter: ";
 	cin >> temp2;
 	PitcherUsed.Set_PitchCutter(temp2);
+
+	cout << "\n Splitter: ";
+	cin >> temp2;
+	PitcherUsed.Set_PitchSplitter(temp2);
+
+	cout << "\n Forkball: ";
+	cin >> temp2;
+	PitcherUsed.Set_PitchForkball(temp2);
+
+	cout << "\n Curveball: ";
+	cin >> temp2;
+	PitcherUsed.Set_PitchCurveball(temp2);
+
+	cout << "\n Slider: ";
+	cin >> temp2;
+	PitcherUsed.Set_PitchSlider(temp2);
+
+	cout << "\n Slurve: ";
+	cin >> temp2;
+	PitcherUsed.Set_PitchSlurve(temp2);
+
+	cout << "\n Screwball: ";
+	cin >> temp2;
+	PitcherUsed.Set_PitchScrewball (temp2);
+
+	cout << "\n Changeup: ";
+	cin >> temp2;
+	PitcherUsed.Set_PitchChangeup(temp2);
+
+	cout << "\n Palmball: ";
+	cin >> temp2;
+	PitcherUsed.Set_PitchPalmball(temp2);
+
+	cout << "\n CircleChange: ";
+	cin >> temp2;
+	PitcherUsed.Set_PitchCircleChange (temp2);
+
+	cout << "\n Kunckleball: ";
+	cin >> temp2;
+	PitcherUsed.Set_PitchKnuckleball(temp2);
 }

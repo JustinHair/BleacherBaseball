@@ -15,7 +15,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Menu.h" />
-    <ClInclude Include="Pitcher.h" />
+    <ClInclude Include="PlayerGeneration.h" />
     <ClInclude Include="PlayerInfo.h" />
     <ClInclude Include="title.h" />
   </ItemGroup>
