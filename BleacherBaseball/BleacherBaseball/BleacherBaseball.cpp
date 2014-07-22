@@ -18,6 +18,7 @@
 //BleacherBaseball headers
 #include "title.h"
 #include "PlayerInfo.h"
+#include "PlayerGeneration.h"
 
 using namespace std;
 
@@ -32,16 +33,16 @@ using namespace std;
 
 //*
 //Functions
-void FCreateThePitcher(Player PitcherUsed);
-void FCreateTheBatter(Player BatterUsed);
+//
+void FCreateTheBatter(Player &BatterUsed);
 
 
 void main()
 {
 	//Declaring Variables
 	Player Pitcher;
+	Player Batter;
 	string Name;
-	int AIM;
 
 	//Title 
 	cout << "Welcome to BleacherBaseball" << endl;
@@ -55,10 +56,13 @@ void main()
 	system("cls");
 
 	//Create the pitcher that will be used in this basic simulation.
-	void FCreateThePitcher(Player &PitcherUsed);
+	FCreateThePitcher(Pitcher);
 
+	cout << endl << Pitcher.Get_PlayerName();
+
+	system("PAUSE");
 	//Create the batter that will be used in this basic simulation.
-	void FCreateTheBatter(Player &BatterUsed);
+	void FCreateTheBatter(Player BatterUsed);
 
 
 	//Create pitcher
@@ -89,3 +93,6 @@ void main()
 //			League Play ---> Start a league, continue a league, league roster management, etc.
 //			Export a roster as HTML
 //			Save and Quit BleacherBaseball
+
+
+//todo Create a function that does tolower and toupper.
