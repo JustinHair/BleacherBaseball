@@ -19,6 +19,7 @@
 #include "PlayerInfo.h"
 #include "PlayerGeneration.h"
 #include "BallparkInfo.h"
+#include "Gameplay.h"
 
 using namespace std;
 
@@ -31,7 +32,9 @@ void main()
 	//Declaring Variables
 	Player Pitcher;
 	Player Batter;
+	Pitching SelectedPitches;
 	BallPark BallDiamond;
+
 	bool bPlaying = true;
 	int PitchCount = 0;
 	int Strikes = 0;
@@ -39,6 +42,8 @@ void main()
 	int Outs = 0;
 	int hits = 0;
 	bool bSwing = false;
+	int PitchTypeUsedIndex = 0;
+	string YesNoChoice;
 
 	//Title 
 	cout << "Welcome to BleacherBaseball" << endl;
@@ -51,20 +56,31 @@ void main()
 	system("PAUSE");
 	system("cls");
 
-	//Create the pitcher that will be used in this basic simulation.
-	FCreateThePitcher(Pitcher);
-	
-	//Create the batter that will be used in this basic simulation.
-	FCreateTheBatter(Batter);
+	cout << "Do you want to create the players? (Y or N): ";
+	cin >> YesNoChoice;
+	if (YesNoChoice == "Y" || YesNoChoice == "y")
+	{
+		//Create the pitcher that will be used in this basic simulation.
+		FCreateThePitcher(Pitcher);
 
+		//Create the batter that will be used in this basic simulation.
+		FCreateTheBatter(Batter);
+	}
+	
 
 	cout << "Today's game will be " << Pitcher.Get_PlayerName() << " versus " << Batter.Get_PlayerName() << "." << endl;
-	system("PAUSE");
 
-	while (bPlaying)
-	{
+	
 		//Pitcher chooses what pitch to throw
+	PitchTypeUsedIndex = FPitchTypeSort(Pitcher);
 
+	for (int i = 0; i <= 100; i++)
+	{
+		FPitchTypetoUse(PitchTypeUsedIndex, SelectedPitches);
+		cout << SelectedPitches.Get_PitchSelectionName() << " with a value of " << SelectedPitches.Get_PitchSelectionValue() << endl;
+	}
+
+	system("PAUSE");
 		//Pitcher chooses what location
 
 
@@ -78,8 +94,7 @@ void main()
 
 		//Actual pitch location vs perceived by batter
 		//calculates hit or whiff
-		PitchCount++;
-	}
+
 
 
 
