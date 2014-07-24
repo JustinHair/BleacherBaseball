@@ -3,6 +3,7 @@
 #include <string>
 #include <time.h>		//Used Random Number Generator Seed
 #include <stdio.h>      //Needed for NULL
+
 #include "PlayerInfo.h"
 #include "BallparkInfo.h"
 
@@ -10,8 +11,8 @@ using namespace std;
 
 //Global Variables
 string PitchNameArray[14];
-int PitchArray[14];
-int ArrayTemp[14];
+float PitchArray[14];
+float ArrayTemp[14];
 
 
 class Pitching
@@ -43,58 +44,66 @@ Pitching::~Pitching()
 
 }
 
-void FActualPitches(int const Pitch, string const PitchName, int &ArrayIndexNumber);
+//Function Declarations
+int FUseablePitchTypes(Player const &PitcherUsed);
+void FGatheringPitches(int const Pitch, string const PitchName, int &ArrayIndexNumber);
+void FSortUseablePitches(int &ArrayIndexNumber);
+
 
 //Pitch Selection
-int FPitchTypeSort(Player const &PitcherUsed)
+int FUseablePitchTypes(Player const &PitcherUsed)
 {
 	string PitchTypeSelected;
 	int Pitch;
 	int IndexArray = 0;
 
 	Pitch = PitcherUsed.Get_PitchFourSeam();
-	FActualPitches(Pitch, "FourSeam", IndexArray);
+	FGatheringPitches(Pitch, "FourSeam", IndexArray);
 
 	Pitch = PitcherUsed.Get_PitchTwoSeam();
-	FActualPitches(Pitch, "TwoSeam", IndexArray);
+	FGatheringPitches(Pitch, "TwoSeam", IndexArray);
 
 	Pitch = PitcherUsed.Get_PitchCutter();
-	FActualPitches(Pitch, "Cutter", IndexArray);
+	FGatheringPitches(Pitch, "Cutter", IndexArray);
 
 	Pitch = PitcherUsed.Get_PitchSplitter();
-	FActualPitches(Pitch, "Splitter", IndexArray);
+	FGatheringPitches(Pitch, "Splitter", IndexArray);
 
 	Pitch = PitcherUsed.Get_PitchForkBall();
-	FActualPitches(Pitch, "Forkball", IndexArray);
+	FGatheringPitches(Pitch, "Forkball", IndexArray);
 
 	Pitch = PitcherUsed.Get_PitchCurveBall();
-	FActualPitches(Pitch, "Curveball", IndexArray);
+	FGatheringPitches(Pitch, "Curveball", IndexArray);
 
 	Pitch = PitcherUsed.Get_PitchSlider();
-	FActualPitches(Pitch, "Slider", IndexArray);
+	FGatheringPitches(Pitch, "Slider", IndexArray);
 
 	Pitch = PitcherUsed.Get_PitchSlurve();
-	FActualPitches(Pitch, "Slurve", IndexArray);
+	FGatheringPitches(Pitch, "Slurve", IndexArray);
 
 	Pitch = PitcherUsed.Get_PitchScrewball();
-	FActualPitches(Pitch, "Screwball", IndexArray);
+	FGatheringPitches(Pitch, "Screwball", IndexArray);
 
 	Pitch = PitcherUsed.Get_PitchChangeUp();
-	FActualPitches(Pitch, "ChangeUp", IndexArray);
+	FGatheringPitches(Pitch, "ChangeUp", IndexArray);
 
 	Pitch = PitcherUsed.Get_PitchPalmball();
-	FActualPitches(Pitch, "PalmBall", IndexArray);
+	FGatheringPitches(Pitch, "PalmBall", IndexArray);
 
 	Pitch = PitcherUsed.Get_PitchCircleChange();
-	FActualPitches(Pitch, "CircleChange", IndexArray);
+	FGatheringPitches(Pitch, "CircleChange", IndexArray);
 
 	Pitch = PitcherUsed.Get_PitchKnuckleball();
-	FActualPitches(Pitch, "Knuckleball", IndexArray);
+	FGatheringPitches(Pitch, "Knuckleball", IndexArray);
+
+	//Resort the array so that the pitches are in order of lowest to highest.
+	//This will help in determining what pitch to use later on.
+	FSortUseablePitches(IndexArray);
 
 	return IndexArray;
 }
 
-void FActualPitches(int const Pitch, string const PitchName, int &ArrayIndexNumber)
+void FGatheringPitches(int const Pitch, string const PitchName, int &ArrayIndexNumber)
 {
 	if (Pitch > 0)
 	{
@@ -104,12 +113,41 @@ void FActualPitches(int const Pitch, string const PitchName, int &ArrayIndexNumb
 	}
 }
 
+//Sorts the array that holds the pitch types and names so they are in order of smallest to higheset. 
+void FSortUseablePitches(int &ArrayIndexNumber)
+{
+	//Temporary value holder variables
+	int TempValue;
+	string TempNameValue;
+
+	//For loop that sorts the arrays.
+	//The loop stops when the next array is equal to 0.
+	for (int SortIndex = 0; PitchArray[SortIndex + 1] != 0; SortIndex++)
+	{
+		//If the current element is higher than the next element then switch the values.
+		if (PitchArray[SortIndex] > PitchArray[SortIndex + 1])
+		{
+			TempValue = PitchArray[SortIndex];
+			TempNameValue = PitchNameArray[SortIndex];
+			
+			//Sorting the number values
+			PitchArray[SortIndex] = PitchArray[SortIndex + 1];
+			PitchArray[SortIndex + 1] = TempValue;
+			
+			//Sorting the pitch type names.
+			PitchNameArray[SortIndex] = PitchNameArray[SortIndex + 1];
+			PitchNameArray[SortIndex + 1] = TempNameValue;
+		}
+	}
+
+}
+
 
 void FPitchTypetoUse(int const &ArrayIndexNumber, Pitching &PitchSelected)
 {
-	int RandomPitch = 0;
+	float RandomPitch = 0;
 	int Pitch = 0;
-	int PitchTotal = 0;
+	float PitchTotal = 0;
 	string PitchName = " ";
 
 	srand(time(NULL));

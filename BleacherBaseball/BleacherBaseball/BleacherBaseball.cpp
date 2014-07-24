@@ -72,7 +72,7 @@ void main()
 
 	
 		//Pitcher chooses what pitch to throw
-	PitchTypeUsedIndex = FPitchTypeSort(Pitcher);
+	PitchTypeUsedIndex = FUseablePitchTypes(Pitcher);
 
 	for (int i = 0; i <= 100; i++)
 	{
