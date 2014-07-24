@@ -1,11 +1,10 @@
 #pragma once
 #include <iostream>
 #include <string>
-#include <time.h>		//Used Random Number Generator Seed
-#include <stdio.h>      //Needed for NULL
 
 #include "PlayerInfo.h"
 #include "BallparkInfo.h"
+#include "GameSituation.h"
 
 using namespace std;
 
@@ -23,7 +22,7 @@ public:
 
 	void Set_PitchSelection(int PitchSelect, string PitchSelectName)	{ PitchSelectedValue = PitchSelect, PitchSelectedName = PitchSelectName; }
 	
-	string Get_PitchSelectionName()										const{ return PitchSelectedName;	}
+	string Get_PitchSelectionName()										const{ return PitchSelectedName; }
 	int Get_PitchSelectionValue()										const{ return PitchSelectedValue; }
 
 
@@ -44,10 +43,14 @@ Pitching::~Pitching()
 
 }
 
-//Function Declarations
+//Pitch Selection Function Declarations
 int FUseablePitchTypes(Player const &PitcherUsed);
 void FGatheringPitches(int const Pitch, string const PitchName, int &ArrayIndexNumber);
 void FSortUseablePitches(int &ArrayIndexNumber);
+void FPitchTypetoUse(int const &ArrayIndexNumber, Pitching &PitchSelected);
+
+//Pitch location Function Declarations
+void FTargetPitchLocation(GameSituation &CurrentGame);
 
 
 //Pitch Selection
@@ -103,6 +106,7 @@ int FUseablePitchTypes(Player const &PitcherUsed)
 	return IndexArray;
 }
 
+//Using a temporary array to move the available pitches to the front and the 0 to the back.
 void FGatheringPitches(int const Pitch, string const PitchName, int &ArrayIndexNumber)
 {
 	if (Pitch > 0)
@@ -142,44 +146,72 @@ void FSortUseablePitches(int &ArrayIndexNumber)
 
 }
 
-
+//Picks the pitch to throw.
+//It is a random chance though the better the pitch the higher the chance it has of being thrown.
 void FPitchTypetoUse(int const &ArrayIndexNumber, Pitching &PitchSelected)
 {
+	//Local Variables
 	float RandomPitch = 0;
-	int Pitch = 0;
 	float PitchTotal = 0;
+	int Pitch = 0;
 	string PitchName = " ";
 
-	srand(time(NULL));
-
+	//Get the total value of all of the available pitches.
 	for (int index = 0; index < ArrayIndexNumber; index++)
 	{
 		PitchTotal = PitchTotal + PitchArray[index];
 	}
 
+	//Get the percentage of that pitch value from the total sum.
 	for (int index = 0; index < ArrayIndexNumber; index++)
 	{
 
 		ArrayTemp[index] = 100 * (PitchArray[index] / PitchTotal);
 	}
 
+	//Generate a random number from 1-100
 	RandomPitch = (rand() % 100 + 1);
 
-	while (true)
+	//Find the pitch to thrown.
+	for (int PitchLoopIndex = 0; PitchLoopIndex < ArrayIndexNumber; PitchLoopIndex++)
 	{
-		int index = 0;
-		if (ArrayTemp[index] >= RandomPitch)
+		//If the current element is equal to or higher than the random number then that is our pitch to throw.
+		if (ArrayTemp[PitchLoopIndex] >= RandomPitch)
 		{
-			Pitch = PitchArray[index];
-			PitchName = PitchNameArray[index];
+			Pitch = PitchArray[PitchLoopIndex];
+			PitchName = PitchNameArray[PitchLoopIndex];
 
+			//Set the pitch selection to be used outside of this function.
 			PitchSelected.Set_PitchSelection(Pitch, PitchName);
 			break;
 		}
-		index++;
+		else
+		//If the next element in the array is 0 then use the current element as the selected pitch.
+		if (ArrayTemp[PitchLoopIndex + 1] == 0)
+		{
+			Pitch = PitchArray[PitchLoopIndex];
+			PitchName = PitchNameArray[PitchLoopIndex];
+
+			//Set the pitch selection to be used outside of this function.
+			PitchSelected.Set_PitchSelection(Pitch, PitchName);
+			break;
+		}
 	}
+}
+
+
+//Pitch location determination
+//Pitch location descriptors:
+//							In the strike zone:
+//												Rows are High, Middle, and Low
+//												Columns are Inside, Middle, and Away
+//							Outside the strike zone: Away, Inside, High, Low
+//This makes 13 locations for the pitcher to choose from.  Four are intentional ball locations.  
+//Percentage of intentionally throwing out of the strike zone  = 30%
+void FTargetPitchLocation(GameSituation &CurrentGame)
+{
+
 
 
 }
-
 //Batter determination of pitch type and location.

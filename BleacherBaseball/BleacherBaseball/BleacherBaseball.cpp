@@ -9,10 +9,6 @@
 #include <iostream>
 #include <string>		//Needed to work with string types
 #include <fstream>		//Needed to read/write to files
-#include <time.h>		//Used Random Number Generator Seed
-#include <stdio.h>      //Needed for NULL
-#include <stdlib.h>     //Needed for Random stuff
-
 
 //BleacherBaseball headers
 #include "title.h"
@@ -20,6 +16,7 @@
 #include "PlayerGeneration.h"
 #include "BallparkInfo.h"
 #include "Gameplay.h"
+#include "GameSituation.h"
 
 using namespace std;
 
@@ -34,12 +31,10 @@ void main()
 	Player Batter;
 	Pitching SelectedPitches;
 	BallPark BallDiamond;
+	GameSituation GameSitrep;
 
 	bool bPlaying = true;
 	int PitchCount = 0;
-	int Strikes = 0;
-	int Balls = 0;
-	int Outs = 0;
 	int hits = 0;
 	bool bSwing = false;
 	int PitchTypeUsedIndex = 0;
@@ -71,14 +66,13 @@ void main()
 	cout << "Today's game will be " << Pitcher.Get_PlayerName() << " versus " << Batter.Get_PlayerName() << "." << endl;
 
 	
-		//Pitcher chooses what pitch to throw
+	//Pitcher chooses what pitch to throw
 	PitchTypeUsedIndex = FUseablePitchTypes(Pitcher);
+	FPitchTypetoUse(PitchTypeUsedIndex, SelectedPitches);
 
-	for (int i = 0; i <= 100; i++)
-	{
-		FPitchTypetoUse(PitchTypeUsedIndex, SelectedPitches);
-		cout << SelectedPitches.Get_PitchSelectionName() << " with a value of " << SelectedPitches.Get_PitchSelectionValue() << endl;
-	}
+	//Pitcher chooses pitch location
+	FTargetPitchLocation(GameSitrep);
+
 
 	system("PAUSE");
 		//Pitcher chooses what location
