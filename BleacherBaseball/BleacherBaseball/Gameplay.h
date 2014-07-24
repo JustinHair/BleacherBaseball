@@ -31,6 +31,7 @@ public:
 private:
 	int PitchSelectedValue;
 	string PitchSelectedName;
+	int PitchLocation;
 };
 
 Pitching::Pitching()
@@ -210,8 +211,23 @@ void FPitchTypetoUse(int const &ArrayIndexNumber, Pitching &PitchSelected)
 //Percentage of intentionally throwing out of the strike zone  = 30%
 void FTargetPitchLocation(GameSituation &CurrentGame)
 {
+	int Ballcount = CurrentGame.Get_BallCount();
+	int StikeCount = CurrentGame.Get_StrikeCount();
+	int Outs = CurrentGame.Get_Outs();
 
+
+	if (Ballcount == 0 && StikeCount == 0)
+	{
+		
+	}
+
+}
+
+void FTargetPitchLocationGeneration()
+{
 
 
 }
+
+
 //Batter determination of pitch type and location.
