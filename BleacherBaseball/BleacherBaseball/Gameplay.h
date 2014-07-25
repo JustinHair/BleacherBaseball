@@ -21,9 +21,11 @@ public:
 	Pitching(int PitchSelect, string PitchSelectName);
 
 	void Set_PitchSelection(int PitchSelect, string PitchSelectName)	{ PitchSelectedValue = PitchSelect, PitchSelectedName = PitchSelectName; }
-	
+	void Set_TargetPitchLocationIsInStrikeZone(bool InStrikeZone)		{ bTargetLocationIsInStrikeZone = InStrikeZone; }
+
 	string Get_PitchSelectionName()										const{ return PitchSelectedName; }
 	int Get_PitchSelectionValue()										const{ return PitchSelectedValue; }
+	bool Get_TargetPitchLocationIsInStrikeZone()						const{ return bTargetLocationIsInStrikeZone; }
 
 
 	~Pitching();
@@ -32,6 +34,7 @@ private:
 	int PitchSelectedValue;
 	string PitchSelectedName;
 	int PitchLocation;
+	bool bTargetLocationIsInStrikeZone;
 };
 
 Pitching::Pitching()
@@ -51,7 +54,8 @@ void FSortUseablePitches(int &ArrayIndexNumber);
 void FPitchTypetoUse(int const &ArrayIndexNumber, Pitching &PitchSelected);
 
 //Pitch location Function Declarations
-void FTargetPitchLocation(GameSituation &CurrentGame);
+void FTargetPitchLocation(GameSituation const &CurrentGame, Pitching &PitchingLocation);
+void FTargetPitchLocationInOutGeneration(int StrikeZoneThresholdValue, Pitching &PitchingForLocation);
 
 
 //Pitch Selection
@@ -209,18 +213,59 @@ void FPitchTypetoUse(int const &ArrayIndexNumber, Pitching &PitchSelected)
 //							Outside the strike zone: Away, Inside, High, Low
 //This makes 13 locations for the pitcher to choose from.  Four are intentional ball locations.  
 //Percentage of intentionally throwing out of the strike zone  = 30%
-void FTargetPitchLocation(GameSituation &CurrentGame)
+void FTargetPitchLocation(GameSituation const &CurrentGame, Pitching &PitchingForLocation)
 {
 	int Ballcount = CurrentGame.Get_BallCount();
 	int StikeCount = CurrentGame.Get_StrikeCount();
 	int Outs = CurrentGame.Get_Outs();
 
-
-	if (Ballcount == 0 && StikeCount == 0)
+	//Ball strike counts
+	if ((Ballcount == 0 && StikeCount == 0) || (Ballcount == 2 && StikeCount == 2))
 	{
-		
+		FTargetPitchLocationInOutGeneration(55, PitchingForLocation);
+		return;
 	}
 
+	if ((Ballcount == 1 && StikeCount == 0) || (Ballcount == 0 && StikeCount == 1) || (Ballcount == 1 && StikeCount == 1))
+	{
+		FTargetPitchLocationInOutGeneration(50, PitchingForLocation);
+		return;
+	}
+
+	if ((Ballcount == 2 && StikeCount == 0) || (Ballcount == 3 && StikeCount == 2) || (Ballcount == 2 && StikeCount == 1))
+	{
+		FTargetPitchLocationInOutGeneration(60, PitchingForLocation);
+		return;
+	}
+
+	if ((Ballcount == 0 && StikeCount == 2) || (Ballcount == 1 && StikeCount == 2))
+	{
+		FTargetPitchLocationInOutGeneration(40, PitchingForLocation);
+		return;
+	}
+
+	if ((Ballcount == 3 && StikeCount == 1))
+	{
+		FTargetPitchLocationInOutGeneration(70, PitchingForLocation);
+		return;
+	}
+	if ((Ballcount == 3 && StikeCount == 0))
+	{
+		FTargetPitchLocationInOutGeneration(70, PitchingForLocation);
+		return;
+	}
+
+}
+
+void FTargetPitchLocationInOutGeneration(int StrikeZoneThresholdValue, Pitching &PitchingForLocation)
+{
+	//Generate a random number between 1 and 100.
+	int RandomNumber = rand() % 100 + 1;
+
+	if (RandomNumber <= StrikeZoneThresholdValue)
+	{
+		PitchingForLocation.Set_TargetPitchLocationIsInStrikeZone(true);
+	}
 }
 
 void FTargetPitchLocationGeneration()

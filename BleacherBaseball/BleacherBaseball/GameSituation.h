@@ -31,6 +31,10 @@ private:
 
 GameSituation::GameSituation()
 {
+	Set_Outs(0);
+	Set_StikeCount(0);
+	Set_BallCount(0);
+	Set_CurrentInning(1);
 }
 
 GameSituation::~GameSituation()

@@ -71,7 +71,7 @@ void main()
 	FPitchTypetoUse(PitchTypeUsedIndex, SelectedPitches);
 
 	//Pitcher chooses pitch location
-	FTargetPitchLocation(GameSitrep);
+	FTargetPitchLocation(GameSitrep, SelectedPitches);
 
 
 	system("PAUSE");
