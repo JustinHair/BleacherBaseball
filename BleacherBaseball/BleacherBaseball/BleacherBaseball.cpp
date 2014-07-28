@@ -33,6 +33,8 @@ void main()
 	BallPark BallDiamond;
 	GameSituation GameSitrep;
 
+	ofstream TestFile;
+
 	bool bPlaying = true;
 	int PitchCount = 0;
 	int hits = 0;
@@ -66,13 +68,16 @@ void main()
 	cout << "Today's game will be " << Pitcher.Get_PlayerName() << " versus " << Batter.Get_PlayerName() << "." << endl;
 
 	
-	//Pitcher chooses what pitch to throw
-	PitchTypeUsedIndex = FUseablePitchTypes(Pitcher);
-	FPitchTypetoUse(PitchTypeUsedIndex, SelectedPitches);
 
-	//Pitcher chooses pitch location
-	FTargetPitchLocation(GameSitrep, SelectedPitches);
+	TestFile.open("TestLog.txt");
 
+	//Pitcher chooses what pitch to throw and where to throw it.
+	for (int i = 0; i < 1000; i++)
+	{
+		FUseablePitchTypes(Pitcher, SelectedPitches, GameSitrep);
+		TestFile << "\n The pitcher is throwing a " << SelectedPitches.Get_PitchSelectionName() << " and it will be " << SelectedPitches.Get_PitchLocation() << endl;
+	}
+	TestFile.close();
 
 	system("PAUSE");
 		//Pitcher chooses what location

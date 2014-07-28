@@ -1,0 +1,2000 @@
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a Curveball and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a ChangeUp and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a ChangeUp and it will be 6
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a ChangeUp and it will be 9
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 9
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 6
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 9
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a Curveball and it will be 9
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a ChangeUp and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a ChangeUp and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a ChangeUp and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 6
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a ChangeUp and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a Curveball and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 6
+
+ The pitcher is throwing a Curveball and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 9
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a Curveball and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a Curveball and it will be 5
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a Curveball and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 5
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a Curveball and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a Curveball and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a Curveball and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 10
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a Curveball and it will be 11
+
+ The pitcher is throwing a Curveball and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a Curveball and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a ChangeUp and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 11
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 7
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a FourSeam and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 6
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 13
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a Curveball and it will be 8
+
+ The pitcher is throwing a Curveball and it will be 4
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 2
+
+ The pitcher is throwing a ChangeUp and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 12
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 3
+
+ The pitcher is throwing a FourSeam and it will be 9
+
+ The pitcher is throwing a FourSeam and it will be 1
+
+ The pitcher is throwing a FourSeam and it will be 6

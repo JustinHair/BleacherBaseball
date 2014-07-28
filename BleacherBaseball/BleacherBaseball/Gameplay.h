@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <string>
+#include <time.h>
 
 #include "PlayerInfo.h"
 #include "BallparkInfo.h"
@@ -41,8 +42,9 @@ private:
 
 Pitching::Pitching()
 {
-	Set_PitchSelection(0, "NoneChoosen");
-	Set_TargetPitchLocationIsInStrikeZone(true);
+	Set_PitchSelection(0, "NoneChoosen");								
+	Set_TargetPitchLocationIsInStrikeZone(true);						//Default is for the pitcher to throw a strike.
+	Set_PitchLocation(5);												//Center of the plate.
 }
 
 Pitching::~Pitching()
@@ -51,7 +53,7 @@ Pitching::~Pitching()
 }
 
 //Pitch Selection Function Declarations
-int FUseablePitchTypes(Player const &PitcherUsed);
+void FUseablePitchTypes(Player const &PitcherUsed);
 void FGatheringPitches(int const Pitch, string const PitchName, int &ArrayIndexNumber);
 void FSortUseablePitches(int &ArrayIndexNumber);
 void FPitchTypetoUse(int const &ArrayIndexNumber, Pitching &PitchSelected);
@@ -63,12 +65,12 @@ void FTargetPitchLocationSelection(Pitching &PitchLocation);
 
 
 //Pitch Selection
-int FUseablePitchTypes(Player const &PitcherUsed)
+void FUseablePitchTypes(Player const &PitcherUsed, Pitching &PitchSelection, GameSituation &GameSitrep)
 {
 	string PitchTypeSelected;
 	int Pitch;
 	int IndexArray = 0;
-
+	
 	Pitch = PitcherUsed.Get_PitchFourSeam();
 	FGatheringPitches(Pitch, "FourSeam", IndexArray);
 
@@ -112,7 +114,10 @@ int FUseablePitchTypes(Player const &PitcherUsed)
 	//This will help in determining what pitch to use later on.
 	FSortUseablePitches(IndexArray);
 
-	return IndexArray;
+	//Determines the location where the pitcher is going to throw the ball.
+	FPitchTypetoUse(IndexArray, PitchSelection);
+	FTargetPitchLocation(GameSitrep, PitchSelection);
+
 }
 
 //Using a temporary array to move the available pitches to the front and the 0 to the back.
@@ -156,7 +161,7 @@ void FSortUseablePitches(int &ArrayIndexNumber)
 }
 
 //Picks the pitch to throw.
-//It is a random chance though the better the pitch the higher the chance it has of being thrown.
+//It is a random chance though, the better the pitch the higher the chance it has of being thrown.
 void FPitchTypetoUse(int const &ArrayIndexNumber, Pitching &PitchSelected)
 {
 	//Local Variables
@@ -211,9 +216,9 @@ void FPitchTypetoUse(int const &ArrayIndexNumber, Pitching &PitchSelected)
 
 //Pitch location determination
 //Pitch location descriptors:
-//							In the strike zone:
-//												Rows are High, Middle, and Low
-//												Columns are Inside, Middle, and Away
+//				In the strike zone:
+//							Rows are High, Middle, and Low
+//							Columns are Inside, Middle, and Away
 //							Outside the strike zone: Away, Inside, High, Low
 //This makes 13 locations for the pitcher to choose from.  Four are intentional ball locations.  
 //Percentage of intentionally throwing out of the strike zone  = 30%
@@ -227,44 +232,39 @@ void FTargetPitchLocation(GameSituation const &CurrentGame, Pitching &PitchingFo
 	if ((Ballcount == 0 && StikeCount == 0) || (Ballcount == 2 && StikeCount == 2))
 	{
 		FTargetPitchLocationInOutGeneration(55, PitchingForLocation);
-		return;
 	}
 
 	if ((Ballcount == 1 && StikeCount == 0) || (Ballcount == 0 && StikeCount == 1) || (Ballcount == 1 && StikeCount == 1))
 	{
 		FTargetPitchLocationInOutGeneration(50, PitchingForLocation);
-		return;
 	}
 
 	if ((Ballcount == 2 && StikeCount == 0) || (Ballcount == 3 && StikeCount == 2) || (Ballcount == 2 && StikeCount == 1))
 	{
 		FTargetPitchLocationInOutGeneration(60, PitchingForLocation);
-		return;
 	}
 
 	if ((Ballcount == 0 && StikeCount == 2) || (Ballcount == 1 && StikeCount == 2))
 	{
 		FTargetPitchLocationInOutGeneration(40, PitchingForLocation);
-		return;
 	}
 
 	if ((Ballcount == 3 && StikeCount == 1))
 	{
 		FTargetPitchLocationInOutGeneration(70, PitchingForLocation);
-		return;
 	}
+	
 	if ((Ballcount == 3 && StikeCount == 0))
 	{
 		FTargetPitchLocationInOutGeneration(70, PitchingForLocation);
-		return;
 	}
-
-	FTargetPitchLocationSelection(PitchingForLocation);
 
 }
 
 void FTargetPitchLocationInOutGeneration(int StrikeZoneThresholdValue, Pitching &PitchingForLocation)
 {
+	//srand(time(NULL));
+
 	//Generate a random number between 1 and 100.
 	int RandomNumber = rand() % 100 + 1;
 
@@ -274,10 +274,22 @@ void FTargetPitchLocationInOutGeneration(int StrikeZoneThresholdValue, Pitching 
 	{
 		PitchingForLocation.Set_TargetPitchLocationIsInStrikeZone(true);
 	}
+	else
+	{
+		PitchingForLocation.Set_TargetPitchLocationIsInStrikeZone(false);
+	}
+	
+	//Find the actual location of the pitch.
+	FTargetPitchLocationSelection(PitchingForLocation);
 }
 
+
+//Determines the location of the pitch.
+//There are nine zones in the strike zone.
+//There are 4 zones outside of the strike zone.
 void FTargetPitchLocationSelection(Pitching &PitchingLocation)
 {
+	//srand(time(NULL));
 	int RandomNumber = 1;
 
 	if (PitchingLocation.Get_TargetPitchLocationIsInStrikeZone())
@@ -294,8 +306,8 @@ void FTargetPitchLocationSelection(Pitching &PitchingLocation)
 	}
 	else
 	{
-		RandomNumber = rand() % 4;
-		for (int LocationIndex = 10; LocationIndex <= 13; LocationIndex++)
+		RandomNumber = rand() % 4 + 1;
+		for (int LocationIndex = 1; LocationIndex <= 4; LocationIndex++)
 		{
 			if (RandomNumber == LocationIndex)
 			{
