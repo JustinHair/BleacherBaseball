@@ -22,10 +22,12 @@ public:
 
 	void Set_PitchSelection(int PitchSelect, string PitchSelectName)	{ PitchSelectedValue = PitchSelect, PitchSelectedName = PitchSelectName; }
 	void Set_TargetPitchLocationIsInStrikeZone(bool InStrikeZone)		{ bTargetLocationIsInStrikeZone = InStrikeZone; }
+	void Set_PitchLocation(int PitchLocationValue)					{ PitchLocation = PitchLocationValue; }
 
 	string Get_PitchSelectionName()										const{ return PitchSelectedName; }
 	int Get_PitchSelectionValue()										const{ return PitchSelectedValue; }
 	bool Get_TargetPitchLocationIsInStrikeZone()						const{ return bTargetLocationIsInStrikeZone; }
+	int Get_PitchLocation()												const{ return PitchLocation; }
 
 
 	~Pitching();
@@ -40,6 +42,7 @@ private:
 Pitching::Pitching()
 {
 	Set_PitchSelection(0, "NoneChoosen");
+	Set_TargetPitchLocationIsInStrikeZone(true);
 }
 
 Pitching::~Pitching()
@@ -56,6 +59,7 @@ void FPitchTypetoUse(int const &ArrayIndexNumber, Pitching &PitchSelected);
 //Pitch location Function Declarations
 void FTargetPitchLocation(GameSituation const &CurrentGame, Pitching &PitchingLocation);
 void FTargetPitchLocationInOutGeneration(int StrikeZoneThresholdValue, Pitching &PitchingForLocation);
+void FTargetPitchLocationSelection(Pitching &PitchLocation);
 
 
 //Pitch Selection
@@ -255,6 +259,8 @@ void FTargetPitchLocation(GameSituation const &CurrentGame, Pitching &PitchingFo
 		return;
 	}
 
+	FTargetPitchLocationSelection(PitchingForLocation);
+
 }
 
 void FTargetPitchLocationInOutGeneration(int StrikeZoneThresholdValue, Pitching &PitchingForLocation)
@@ -262,16 +268,42 @@ void FTargetPitchLocationInOutGeneration(int StrikeZoneThresholdValue, Pitching 
 	//Generate a random number between 1 and 100.
 	int RandomNumber = rand() % 100 + 1;
 
+	//If the number is less than the threshold value then the pitch will be thrown in the strike zone.
+	//bTargetLocationIsInStrikeZone will be set to true, otherwise false for outside the strike zone.
 	if (RandomNumber <= StrikeZoneThresholdValue)
 	{
 		PitchingForLocation.Set_TargetPitchLocationIsInStrikeZone(true);
 	}
 }
 
-void FTargetPitchLocationGeneration()
+void FTargetPitchLocationSelection(Pitching &PitchingLocation)
 {
+	int RandomNumber = 1;
 
-
+	if (PitchingLocation.Get_TargetPitchLocationIsInStrikeZone())
+	{
+		RandomNumber = rand() % 9 + 1;
+		for (int LocationIndex = 1; LocationIndex <= 9; LocationIndex++)
+		{
+			if (RandomNumber == LocationIndex)
+			{
+				PitchingLocation.Set_PitchLocation(LocationIndex);
+				break;
+			}
+		}
+	}
+	else
+	{
+		RandomNumber = rand() % 4;
+		for (int LocationIndex = 10; LocationIndex <= 13; LocationIndex++)
+		{
+			if (RandomNumber == LocationIndex)
+			{
+				PitchingLocation.Set_PitchLocation(LocationIndex + 9);
+				break;
+			}
+		}
+	}
 }
 
 
