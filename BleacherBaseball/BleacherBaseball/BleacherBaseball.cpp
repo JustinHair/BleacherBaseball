@@ -35,8 +35,8 @@ void main()
 	GameSituation GameSitrep;
 
 	//Declaring Variable names for writing to a file
-	ofstream FILEBBLog;
 	ofstream FILEGameDayLog;
+	int Loggingcount = 1;
 
 	//Decalaring Variables
 	bool bPlaying = true;
@@ -49,6 +49,7 @@ void main()
 	//Title 
 	cout << "Welcome to BleacherBaseball" << endl;
 	cout << endl;
+	FBBLogging("Title: Welcome to BleacherBaseball", Loggingcount);
 
 	//TitleScreen Art
 	FTitleArt();
@@ -61,29 +62,32 @@ void main()
 	cin >> YesNoChoice;
 	if (YesNoChoice == "Y" || YesNoChoice == "y")
 	{
+		FBBLogging("Player elected to create a pitcher and batter", Loggingcount);
+
 		//Create the pitcher that will be used in this basic simulation.
 		FCreateThePitcher(Pitcher);
 
 		//Create the batter that will be used in this basic simulation.
 		FCreateTheBatter(Batter);
+
 	}
 	
+	//Logging
+	if (YesNoChoice != "Y" || YesNoChoice != "y")
+	{
+		FBBLogging("Player elected to NOT to create a pitcher and batter", Loggingcount);
+	}
 
 	cout << "Today's game will be " << Pitcher.Get_PlayerName() << " versus " << Batter.Get_PlayerName() << "." << endl;
 
-	
-
-	FILEBBLog.open("BBLog.txt");
-	timestamp();
 
 	//Pitcher chooses what pitch to throw and where to throw it.
 	for (int i = 0; i < 1000; i++)
 	{
 		FUseablePitchTypes(Pitcher, SelectedPitches, GameSitrep);
-		FILEBBLog <<"\n The pitcher is throwing a " << SelectedPitches.Get_PitchSelectionName() << " and it will be " << SelectedPitches.Get_PitchLocation() << endl;
+		
 	}
-	FILEBBLog.close();
-
+	
 	system("PAUSE");
 
 		//Batter chances on recognizing the pitch
