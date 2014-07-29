@@ -17,6 +17,7 @@
 #include "BallparkInfo.h"
 #include "Gameplay.h"
 #include "GameSituation.h"
+#include "BBLogging.h"
 
 using namespace std;
 
@@ -26,15 +27,18 @@ using namespace std;
 
 void main()
 {
-	//Declaring Variables
+	//Declaring Game Unique Variables
 	Player Pitcher;
 	Player Batter;
 	Pitching SelectedPitches;
 	BallPark BallDiamond;
 	GameSituation GameSitrep;
 
-	ofstream TestFile;
+	//Declaring Variable names for writing to a file
+	ofstream FILEBBLog;
+	ofstream FILEGameDayLog;
 
+	//Decalaring Variables
 	bool bPlaying = true;
 	int PitchCount = 0;
 	int hits = 0;
@@ -69,20 +73,18 @@ void main()
 
 	
 
-	TestFile.open("TestLog.txt");
+	FILEBBLog.open("BBLog.txt");
+	timestamp();
 
 	//Pitcher chooses what pitch to throw and where to throw it.
 	for (int i = 0; i < 1000; i++)
 	{
 		FUseablePitchTypes(Pitcher, SelectedPitches, GameSitrep);
-		TestFile << "\n The pitcher is throwing a " << SelectedPitches.Get_PitchSelectionName() << " and it will be " << SelectedPitches.Get_PitchLocation() << endl;
+		FILEBBLog <<"\n The pitcher is throwing a " << SelectedPitches.Get_PitchSelectionName() << " and it will be " << SelectedPitches.Get_PitchLocation() << endl;
 	}
-	TestFile.close();
+	FILEBBLog.close();
 
 	system("PAUSE");
-		//Pitcher chooses what location
-
-
 
 		//Batter chances on recognizing the pitch
 		//Batter determines pitch location
