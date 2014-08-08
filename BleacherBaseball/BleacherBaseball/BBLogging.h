@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -6,7 +7,7 @@
 
 
 //Function declaration
-void FBBLogging(string DescriptiveLogging, int OrderIHappen);
+void FBBLogging(string DescriptiveLogging, int &OrderIHappen);
 
 
 void FBBLogging(string DescriptiveLogging, int &OrderIHappen)
@@ -18,13 +19,15 @@ void FBBLogging(string DescriptiveLogging, int &OrderIHappen)
 	FILEBBLog.open("BBLog.txt");
 
 	//Write to file
-	FILEBBLog << OrderIHappen << ":  " << DescriptiveLogging << endl;
+	FILEBBLog << endl << OrderIHappen << ":  " << DescriptiveLogging << endl;
 
 	//Close the file.
-	FILEBBLog.close();
+	//FILEBBLog.close();
 
 	//Increment Logging Count
 	OrderIHappen++;
+
+	FILEBBLog.close();
 }
 
 
